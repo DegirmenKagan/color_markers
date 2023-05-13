@@ -2,20 +2,28 @@ h1 {
   text-align: center;
 }
 
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0px;
+}
 .marker {
   height: 25px;
   width: 200px;
   margin: 10px auto;
 }
 
-.one {
-  background-color: red;
+.red {
+  background-color: rgb(255, 0, 0);
 }
 
-.two {
-  background-color: green;
+.green {
+  background-color: #007f00;
 }
 
-.three {
-  background-color: blue;
+/* hsl function =>
+    hue(0-360 degrees of wheel),
+    saturation(0-100),
+    lightness(0-100) */
+.blue {
+  background-color: hsl(240, 100%, 50%);
 }
