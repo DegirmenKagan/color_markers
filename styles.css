@@ -12,19 +12,20 @@ h1 {
   margin: 10px auto;
 }
 
-/* linear-gradient(gradientDirection, color1, color2, ...);
- */
+/* linear-gradient(gradientDirection (default: 180deg), color1, color2, ...);*/
+
+/* with rgb() */
 .red {
   background: linear-gradient(
-    180deg,
-    rgb(122, 74, 14) 0%,
-    rgb(245, 62, 113) 50%,
-    rgb(0, 0, 255) 100%
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
   );
 }
+/* with hex */
 
 .green {
-  background-color: #007f00;
+  background: linear-gradient(#55680d, #71f53e, #116c31);
 }
 
 /* hsl function =>
@@ -32,5 +33,9 @@ h1 {
     saturation(0-100),
     lightness(0-100) */
 .blue {
-  background-color: hsl(240, 100%, 50%);
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
 }
