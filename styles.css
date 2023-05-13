@@ -15,7 +15,12 @@ h1 {
 /* linear-gradient(gradientDirection, color1, color2, ...);
  */
 .red {
-  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14) 0%,
+    rgb(245, 62, 113) 50%,
+    rgb(0, 0, 255) 100%
+  );
 }
 
 .green {
