@@ -3,8 +3,19 @@ h1 {
 }
 
 .marker {
-  background-color: red;
   height: 25px;
   width: 200px;
-  margin: auto;
+  margin: 10px auto;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
 }
